@@ -1,4 +1,10 @@
-<p>
-  这里是商品详情组件！
-</p>
-<p>商品ID是{{productId}}</p>
+<!-- 产品组件 -->
+<div class="product">
+	<p>
+	  这里是商品详情组件！
+	</p>
+	<p>商品ID是{{productId}}</p>
+	<a [routerLink]="['./']">链接到商品描述页面</a>
+	<a [routerLink]="['./sell']">链接到商品详情页面</a>
+	<router-outlet></router-outlet>
+</div>

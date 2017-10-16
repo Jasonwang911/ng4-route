@@ -7,14 +7,20 @@ import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { Code404Component } from './code404/code404.component';
 import { UserComponent } from './user/user.component';
-
+import { ProductDescComponent } from './product-desc/product-desc.component';
+import { SellerInfoComponent } from './seller-info/seller-info.component';
+import { ChatComponent } from './chat/chat.component';
+// import { LoginGuard } from './guard/login.guard';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProductComponent,
     Code404Component,
-    UserComponent
+    UserComponent,
+    ProductDescComponent,
+    SellerInfoComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,

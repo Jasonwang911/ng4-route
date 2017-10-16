@@ -1,0 +1,7 @@
+.product{
+	border: 1px solid blue;
+	height: 100px;
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+}
